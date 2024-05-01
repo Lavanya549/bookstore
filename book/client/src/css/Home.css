@@ -1,0 +1,33 @@
+.hero{
+    display: flex;
+    background-color: aquamarine;
+    color: black;
+    height: 92vh;
+    padding-inline: 30px;
+}
+.hero-content{
+    flex: 1;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.hero-text{
+    font-size: 6rem;
+    color: black;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+}
+.hero-description{
+    font-size: 2rem;
+    color: purple;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+.hero-image{
+    flex: 1;
+    background: url("images/HomePage.jpg") center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
