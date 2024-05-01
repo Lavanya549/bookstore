@@ -16,6 +16,7 @@ cd bookstore
 cd client
 # Install dependencies:
 npm install
+
 npm install react-router-dom@latest
 # Run command
 npm run dev
@@ -28,8 +29,11 @@ npm run dev
 2.Add your MongoDB connection string in the .env file:
 
   PORT = 3001
+  
   URL = "mongodb://127.0.0.1:27017/bookstore"
+  
   Admin_key = "admin-key"
+  
   Student_key = "student-key"
 
 
@@ -39,21 +43,32 @@ npm run dev
 cd server
 # Install dependencies:
 npm install
+
 npm install express nodemon mongoose cors bcrypt jsonwebtoken cookie-parser
 
 # Usage
 1.Start the server:
+
   npm start
+  
 2.Open your browser and navigate to http://localhost:5173/ to access the application.
+
 
 # Features
 . View a list of books with details.
+
 . Add a new book to the database.
+
 . Retrive the books
+
 . Update existing book details.
+
 . Delete a book from the database.
+
 . Add students to the database
+
 . View the Dashboard.
+
 
 
 
