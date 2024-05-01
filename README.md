@@ -24,7 +24,9 @@ npm run dev
 
 # Configuration
 1.Create a .env file in the root directory.
+
 2.Add your MongoDB connection string in the .env file:
+
   PORT = 3001
   URL = "mongodb://127.0.0.1:27017/bookstore"
   Admin_key = "admin-key"
